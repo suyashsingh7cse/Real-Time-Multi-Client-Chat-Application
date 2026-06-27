@@ -1,0 +1,48 @@
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+
+# Build Output
+out/
+bin/
+target/
+
+# Logs
+logs/
+*.log
+
+# Runtime Data
+data/history/
+data/users/
+
+# IDE
+.vscode/
+.idea/
+.qodo/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Java Crash Logs
+hs_err_pid*
+replay_pid*
+
+# Environment Files
+.env
+.env.*
+
+# Keep Folder Structure
+!logs/.gitkeep
+!data/history/.gitkeep
+!data/users/.gitkeep
