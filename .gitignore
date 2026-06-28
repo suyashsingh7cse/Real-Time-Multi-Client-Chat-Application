@@ -1,15 +1,15 @@
-# ==========================
 # Java
-# ==========================
 *.class
 *.jar
 *.war
 *.ear
 
-# Build Output
+# Build
 out/
 bin/
 target/
+build/
+.gradle/
 
 # Logs
 logs/
@@ -23,26 +23,35 @@ data/users/
 .vscode/
 .idea/
 .qodo/
+*.iml
+.project
+.classpath
+.settings/
+*.code-workspace
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Windows
 Thumbs.db
 
-# Temporary Files
+# Temp
 *.tmp
 *.temp
+*.ctxt
+*.java~
 
-# Java Crash Logs
+# Crash Logs
 hs_err_pid*
 replay_pid*
 
-# Environment Files
+# Environment
 .env
 .env.*
 
-# Keep Folder Structure
+# Keep Empty Folders
 !logs/.gitkeep
 !data/history/.gitkeep
 !data/users/.gitkeep

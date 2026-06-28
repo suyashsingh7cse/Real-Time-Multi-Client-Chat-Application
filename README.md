@@ -87,8 +87,7 @@ RealTimeChatApplication/
 │   ├── chat.log
 │   └── errors.log
 │
-├── screenshots/ # Project screenshots
-├── out/                          # compiled .class files                       
+├── screenshots/ # Project screenshots                    
 ├── README.md
 ├── DOCUMENTATION.md
 ├── .gitignore 
@@ -359,10 +358,10 @@ This project demonstrates practical experience with:
 
 <div align="center">
 
+### Developed by **[Suyash Singh](https://github.com/suyashsingh7cse)**
+
 **Built with ❤️ using Java 17**
 
 **Java • Socket Programming • Multithreading • Client–Server Architecture**
-
-©️ 2026 Suyash Singh. All Rights Reserved.
 
 </div>
