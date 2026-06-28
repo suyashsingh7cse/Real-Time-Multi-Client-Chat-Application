@@ -11,8 +11,6 @@ echo ================================
 if exist out rmdir /s /q out
 mkdir out
 
-for /R src %%f in (*.java) do set SOURCES=!SOURCES! "%%f"
-
 javac -d out --release 17 ^
   src\util\Constants.java ^
   src\util\DateUtil.java ^
@@ -31,12 +29,16 @@ javac -d out --release 17 ^
   src\client\ClientWriter.java ^
   src\client\ChatClient.java
 
-if %errorlevel% == 0 (
+if %ERRORLEVEL% EQU 0 (
+  echo.
   echo   Build successful -^> out\
   echo ================================
   echo.
   echo   Run server:  java -cp out server.ChatServer
   echo   Run client:  java -cp out client.ChatClient
 ) else (
+  echo.
   echo   BUILD FAILED
 )
+
+pause
