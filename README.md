@@ -78,16 +78,19 @@ RealTimeChatApplication/
 │       └── LoggerUtil.java       # Thread-safe file logger (3 channels)
 │
 ├── data/
-│   ├── history/                  # general.txt + pm_A_B.txt files
-│   ├── rooms/                    # <roomName>.txt per room
-│   └── users/                    # reserved for future persistence
+│   ├── history/                  # Stores chat history
+│   │   └── .gitkeep                 
+│   ├── rooms/                    # Runtime-generated room files
+│   │   └── .gitkeep                    
+│   └── users/                    # Reserved for future persistence
+│       └── .gitkeep                   
 │
 ├── logs/                         # Generated automatically at runtime
 │   ├── server.log
 │   ├── chat.log
 │   └── errors.log
 │
-├── screenshots/ # Project screenshots                    
+├── screenshots/              # Project screenshots                    
 ├── README.md
 ├── DOCUMENTATION.md
 ├── .gitignore 
